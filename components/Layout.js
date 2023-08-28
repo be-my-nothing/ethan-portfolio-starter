@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
       <Nav />
       <Header />
      <Home/>
-      {/* {children} */}
+      {children}
     </div>
   );
 }

@@ -18,6 +18,7 @@ function MyApp({ Component, pageProps }) {
     </motion.div>
   </AnimatePresence>
   <Component {...pageProps} />
-  </Layout> )}
+  </Layout> 
+)}
 
 export default MyApp;
