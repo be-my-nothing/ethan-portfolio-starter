@@ -7,6 +7,7 @@ import Header from '../components/Header';
 import TopLeftImg from '../components/TopLeftImg';
 import Home from '../pages/index';
 
+
 // Font settings
 const sora = ({
   Subsets: ['latin'], 

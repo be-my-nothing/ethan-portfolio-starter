@@ -8,12 +8,13 @@ const ParticlesContainer = () => {
 //init 
 const ParticlesInit = useCallback(async(engine)=>{
   await loadFull(engine)
-},[]);
-// const ParticlesLoaded = useCallback(async ()=>{ 
-// },[])
+},[]);//hello
+const ParticlesLoaded = useCallback(async ()=>{ 
+},[])
 
-<div>ParticlesContainer</div>
-
+return(
+  <Particles id='tsparticles'   />
+)
 }
 
 
